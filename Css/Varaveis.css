@@ -1,0 +1,29 @@
+:root{
+    --cor-fundo: #74C69D;
+    --cor-texto: #ffffff;
+    --cor-texto-escuro: #212529;
+    --cor-destaque: #ffffff;
+    --cor-destaque-escuro: #212529;
+    --cor-borda: #cccccc;
+    --cor-sombra: rgba(102, 102, 102, 0.5);
+    --cor-sucesso: #4caf50;
+    --cor-erro: #f44336;
+    --cor-aviso: #ff9800;
+    --cor-info: #2196f3;
+    
+    /* Fontes */
+    --fonte-principal: 'Arial', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+    
+    /* Tamanhos */
+    --tamanho-pequeno: 12px;
+    --tamanho-medio: 16px;
+    --tamanho-grande: 20px;
+    
+    /* Espaçamentos */
+    --espaco-pequeno: 8px;
+    --espaco-medio: 16px;
+    --espaco-grande: 24px;
+    --margens :350px;
+    --margem-botton: 120px;
+}
