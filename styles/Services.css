@@ -5,7 +5,6 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
     scrollbar-width: none;
     -ms-overflow-style: none;
     height: 100vh;
@@ -48,6 +47,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
     gap: 60px;
 }
 .textos{
@@ -57,7 +57,7 @@ main{
     align-items: center;
 }
 .textos h3{
-    color: var(--cor-fundo);
+    color: var(--cor-principal);
 }
 .cards{
     width: 100%;
@@ -69,8 +69,6 @@ main{
 }
 .card{
     width: 300px;
-    /* height: 500px; */
-    /* background-color: var(--cor-fundo); */
     border-radius: 10px;
     padding: 36px 30px;
     gap: 32px;
@@ -87,14 +85,22 @@ main{
     gap: 8px;
     text-align: center;
 }
+.plano{
+    color: var(--cor-texto-principal);
+}
 .preco{
     display: flex;
     align-items: center;
     gap: 10px;
+    color: var(--cor-texto-secundario);
 }
 .preco span{
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 600;
+    color: var(--cor-texto-principal);
+}
+.descricao{
+    color: var(--cor-texto-secundario);
 }
 .card-caracteristicas{
     list-style: none;
@@ -108,8 +114,11 @@ main{
     align-items: center;
 }
 .fa-check{
-    color: var(--cor-fundo);
+    color: var(--cor-sucesso);
 }
 .fa-xmark{
     color: var(--cor-erro);
+}
+.card-caracteristicas li p{
+    color: var(--cor-texto-principal);
 }

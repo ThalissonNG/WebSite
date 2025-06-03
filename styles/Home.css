@@ -5,7 +5,6 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -22,7 +21,7 @@ h3{
 
 #home{
     width: 100%;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,28 +32,9 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: var(--cor-texto);
+    color: var(--cor-elemento-principal);
 }
-.botao{
-    border: none;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 48px;
-    font-size: 20px;
-    border-radius: 5px;
-}
-.btn1{
-    background-color: var(--cor-destaque);
-    color: var(--cor-texto-escuro);
-}
-.btn2{
-    background-color: var(--cor-destaque-escuro);
-    color: var(--cor-texto);
-}
-#partners{
+#parceiros{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,10 +50,10 @@ h3{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    color: var(--cor-texto-escuro);
+    color: var(--cor-texto-principal);
 }
 .textos h3{
-    color: var(--cor-fundo);
+    color: var(--cor-principal);
 }
 .marcas{
     display: flex;
@@ -94,7 +74,10 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: var(--cor-texto-escuro);
+    color: var(--cor-texto-principal);
+}
+.informacoes-sobre p{
+    color: var(--cor-texto-secundario);
 }
 #time{
     width: 100%;
@@ -108,24 +91,28 @@ h3{
 .membros{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 50px;
     flex-wrap: wrap;
 }
 .card{
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 216px;
     padding: 20px;
     box-shadow: 3px 3px 15px 0px var(--cor-sombra);
+    border-radius: 10px;
     gap: 16px;
+    height: 328px;
+    max-width: 216px;
 }
 .card h3{
     color: var(--cor-texto-escuro);
     font-size: 20px;
+    text-align: center;
 }
 .card p{
     font-size: 14px;
-    
+    color: var(--cor-texto-secundario);
 }
