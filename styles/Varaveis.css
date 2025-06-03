@@ -6,7 +6,7 @@
     --cor-elemento-principal: #ffffff;
     --cor-elemento-secundaria: #212529;
     --cor-texto-principal: #000000;
-    --cor-texto-secundario: #212529;
+    --cor-texto-secundario: #666869;
     --cor-borda: #cccccc;
     --cor-sombra: rgba(102, 102, 102, 0.5);
     --cor-sucesso: #4caf50;
@@ -69,12 +69,22 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    gap: var(--espaco-grande);
+    gap: 30px;
     font-size: 20px;
+}
+nav ul li{
+    transition: transform 0.1s ease;
+}
+nav ul li:hover{
+    transform: scale(1.1) translate(0, -3px);
+    color: var(--cor-elemento-secundaria);
 }
 nav ul li a{
     text-decoration: none;
     color: var(--cor-elemento-principal);
+}
+nav ul li a:hover{
+    color: var(--cor-elemento-secundaria);
 }
 
 footer{
