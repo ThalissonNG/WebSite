@@ -98,10 +98,22 @@ footer{
 }
 .social-media{
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .social-media a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     text-decoration: none;
     color: var(--cor-elemento-principal);
     font-size: 20px;
+    transition: all 0.2s ease;
+}
+.social-media a:hover{
+    color: var(--cor-elemento-secundaria);
+}
+.social-media a p{
+    /* font-size: 16px; */
+    font-weight: 500;   
 }
