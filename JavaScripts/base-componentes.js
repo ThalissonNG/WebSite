@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../templates/header.html")
+    fetch("../Components/header.html")
         .then(res => res.text())
         .then(data => document.getElementById("header").innerHTML = data);
 
-    fetch("../templates/footer.html")
+    fetch("../Components/footer.html")
         .then(res => res.text())
         .then(data => document.getElementById("footer").innerHTML = data);
     });
