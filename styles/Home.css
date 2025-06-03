@@ -13,37 +13,13 @@ body{
 body::-webkit-scrollbar {
     display: none; /* Chrome, Safari e Opera */
 }
-h1{
+/* h1{
     font-size: 36px;
 }
 h3{
     font-size: 24px;
-}
+} */
 
-header{
-    width: 100%;
-    background-color: var(--cor-fundo);
-    display: flex;
-    justify-content: center;
-    padding: 35px 0;
-}
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 var(--margens);
-}
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: var(--espaco-grande);
-    font-size: 20px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: var(--cor-texto);
-}
 #home{
     width: 100%;
     background-color: var(--cor-fundo);
@@ -152,21 +128,4 @@ nav ul li a{
 .card p{
     font-size: 14px;
     
-}
-footer{
-    width: 100%;
-    background-color: var(--cor-fundo);
-    display: flex;
-    justify-content: space-between;
-    padding: 35px var(--margens);
-    color: var(--cor-texto);
-}
-.social-media{
-    display: flex;
-    gap: 20px;
-}
-.social-media a{
-    text-decoration: none;
-    color: var(--cor-texto);
-    font-size: 20px;
 }

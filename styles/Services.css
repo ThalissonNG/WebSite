@@ -15,12 +15,6 @@ body{
 body::-webkit-scrollbar {
     display: none;
 }
-h1{
-    font-size: 36px;
-}
-h3{
-    font-size: 24px;
-}
 
 header{
     width: 100%;
@@ -118,22 +112,4 @@ main{
 }
 .fa-xmark{
     color: var(--cor-erro);
-}
-
-footer{
-    width: 100%;
-    background-color: var(--cor-fundo);
-    display: flex;
-    justify-content: space-between;
-    padding: 35px var(--margens);
-    color: var(--cor-texto);
-}
-.social-media{
-    display: flex;
-    gap: 20px;
-}
-.social-media a{
-    text-decoration: none;
-    color: var(--cor-texto);
-    font-size: 20px;
 }
