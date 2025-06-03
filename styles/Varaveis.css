@@ -27,3 +27,23 @@
     --margens :350px;
     --margem-botton: 120px;
 }
+
+.botao{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn1{
+    background-color: var(--cor-destaque);
+    color: var(--cor-texto-escuro);
+}
+.btn2{
+    background-color: var(--cor-destaque-escuro);
+    color: var(--cor-texto);
+}
