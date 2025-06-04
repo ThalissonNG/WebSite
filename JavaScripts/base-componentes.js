@@ -6,4 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("../Components/footer.html")
         .then(res => res.text())
         .then(data => document.getElementById("footer").innerHTML = data);
-    });
+
+    document.getElementById("favicon").href = "../Assets/Logo (1).svg";
+});
