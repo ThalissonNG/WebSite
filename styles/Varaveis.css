@@ -113,13 +113,13 @@ nav{
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        padding-block: 20px;
+        padding-block: 100px;
         position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: var(--cor-secundaria);
+        background-color: var(--cor-principal);
         z-index: 9;
     }
 
@@ -142,7 +142,7 @@ nav ul li{
 }
 nav ul li:hover{
     transform: scale(1.1) translate(0, -3px);
-    color: var(--cor-elemento-secundaria);
+    /* color: var(--cor-elemento-secundaria); */
 }
 nav ul li a{
     text-decoration: none;
