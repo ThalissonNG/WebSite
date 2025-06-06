@@ -97,23 +97,40 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .card-servico {
     width: 240px;
+    height: 320px;
+    text-decoration: none;
     background: #fff;
     border-radius: 16px;
     padding: 24px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    justify-content: space-between;
+    /* gap: 12px; */
     text-align: center;
     box-shadow: 0 10px 20px var(--cor-sombra);
     transition: transform 0.3s ease;
 }
+.card-servico .btn3{
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.card-servico i {
+    transition: transform 0.1s ease;
+}
 .card-servico:hover {
     transform: translateY(-8px);
+}
+.card-servico:hover .btn3{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-elemento-principal);
+}
+.card-servico:hover i {
+    transform: rotate(-45deg);
 }
 .card-servico .icone {
     background-color: var(--cor-principal);
@@ -132,13 +149,14 @@ body::-webkit-scrollbar {
     border-radius: 0;
 }
 .card-servico h4 {
+    color: var(--cor-texto-principal);
     font-size: 18px;
     font-weight: 600;
     margin: 8px 0 0;
 }
 .card-servico p {
     font-size: 14px;
-    color: #555;
+    color: var(--cor-texto-secundario);
 }
 #sobre{
     width: 100%;

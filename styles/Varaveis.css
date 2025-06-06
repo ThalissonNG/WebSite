@@ -58,6 +58,15 @@ body{
     background-color: var(--cor-elemento-secundaria);
     color: var(--cor-elemento-principal);
 }
+.btn3{
+    width: 32px;
+    aspect-ratio: 1/1;
+    background-color: var(--cor-principal);
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    /* color: var(--cor-elemento-principal); */
+}
 
 header{
     width: 100%;
