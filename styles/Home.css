@@ -90,14 +90,13 @@ body::-webkit-scrollbar {
     align-items: center;
     padding: 20px 20px;
     gap: 55px;
-    /* margin-bottom: var(--margem-botton); */
 }
 .cards-servicos{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .card-servico {
     width: 240px;
@@ -110,9 +109,8 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* gap: 12px; */
     text-align: center;
-    box-shadow: 0 10px 20px var(--cor-sombra);
+    box-shadow: 3px 5px 20px 0px var(--cor-sombra);
     transition: transform 0.3s ease;
 }
 .card-servico .btn3{
@@ -165,7 +163,6 @@ body::-webkit-scrollbar {
     justify-content: space-evenly;
     padding: 60px;
     gap: 120px;
-    /* margin-bottom: var(--margem-botton); */
 }
 .reverso{
     display: flex;
