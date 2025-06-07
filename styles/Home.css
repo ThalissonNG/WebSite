@@ -91,14 +91,30 @@ body::-webkit-scrollbar {
     padding: 20px 20px 60px 20px;
     gap: 55px;
 }
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.carrossel-wrapper {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
 .cards-servicos{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease;
 }
 .card-servico {
+    flex: 0 0 auto;
     width: 240px;
     height: 320px;
     text-decoration: none;
@@ -155,6 +171,24 @@ body::-webkit-scrollbar {
 .card-servico p {
     font-size: 14px;
     color: var(--cor-texto-secundario);
+}
+.btn-seta {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    color: var(--cor-principal);
+    z-index: 1;
+}
+.btn-seta:hover {
+    color: var(--cor-secundaria);
+}
+.esquerda {
+    margin-right: 10px;
+}
+.direita {
+    margin-left: 10px;
 }
 #sobre{
     width: 100%;
